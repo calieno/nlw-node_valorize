@@ -1,5 +1,5 @@
 {
-  "name": "Valoriza",
+  "name": "nlw-node",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Luciano <calieno@gmail.com>",
@@ -12,6 +12,7 @@
     "@types/node": "^15.12.4",
     "@types/uuid": "^8.3.0",
     "express": "^4.17.1",
+    "express-async-error": "^0.0.2",
     "mysql2": "^2.2.5",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.2",
