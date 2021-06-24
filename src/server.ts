@@ -1,8 +1,14 @@
 import "reflect-metadata"
+<<<<<<< HEAD
 import express, { NextFunction, Request, Response } from "express"
 import "express-async-errors"
 
 import { router } from "./routes"
+=======
+import "express-async-error"
+import express from "express"
+
+>>>>>>> 0546a5b1931039f44cb3cb3cae6d14810c6df5f9
 import "./database"
 
 const app = express()
