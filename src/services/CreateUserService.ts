@@ -29,7 +29,6 @@ class CreateUserService {
         })
 
         await UserRepository.save(user)
-
         return user
     }
 }
