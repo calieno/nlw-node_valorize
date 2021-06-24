@@ -28,12 +28,8 @@ class CreateUserService {
             admin
         })
 
-<<<<<<< HEAD
-        await UserRepository.save(user)
-=======
         await userRepository.save(user)
 
->>>>>>> 0546a5b1931039f44cb3cb3cae6d14810c6df5f9
         return user
     }
 }
